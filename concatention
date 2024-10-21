@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char one[15]="hellow";
+    char two[15]="world";
+    strcat(one,two);
+    printf("%s\n",one);
+    return 0;
+}
